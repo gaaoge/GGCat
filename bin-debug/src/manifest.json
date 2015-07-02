@@ -1,0 +1,14 @@
+[
+	"game/Node.ts",
+	"game/Utils.ts",
+	"game/skins/PanelSkin.exml",
+	"game/skins/StartViewSkin.exml",
+	"game/Cat.ts",
+	"game/Map.ts",
+	"game/scene/Panel.ts",
+	"game/scene/StartView.ts",
+	"AssetAdapter.ts",
+	"LoadingUI.ts",
+	"game/Stage.ts",
+	"Main.ts"
+]

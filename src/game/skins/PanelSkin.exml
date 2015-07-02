@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin currentState="failed" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<e:states>
+		<e:State name="success"/>
+		<e:State name="failed"/>
+	</e:states>
+	<e:UIAsset source="victory_png" left="0" source.failed="failed_png"/>
+	<e:Label id="result" textColor="0xFF0000" text="你用了16步抓住神经猫！" fontFamily="Arial" left="20" right="20" y="167" size="28" textAlign="center" left.failed="20" right.failed="20" y.failed="195"/>
+	<e:Label id="description" text="全国排名125位" textColor="0x000000" size="20" textAlign="center" fontFamily="Arial" left="20" right="20" y="224" left.failed="20" right.failed="20" y.failed="253"/>
+	<e:UIAsset source="shareBTN_png" x="20" y="365"/>
+	<e:UIAsset id="replayBtn" source="replay_png" x="223" y="365"/>
+</e:Skin>
